@@ -1,0 +1,46 @@
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    background-color: rgba(145, 130, 241, 0.151);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 887px;
+    background-color: floralwhite;
+    margin: 10px;
+    border-radius: 5px;
+}
+hr{
+    width: 800px;
+    background-color: gray;
+}
+/*-------------------- 
+top  players styles 
+---------------------*/
+.top-plyers{
+    margin-bottom: 32px;
+}
+.section-title {
+    margin-left: 30px;
+    color: navy;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 19px;
+    color: navy;
+}

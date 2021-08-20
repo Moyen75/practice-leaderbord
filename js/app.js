@@ -1,0 +1,1 @@
+document.getElementById('top-players').innerText.style.color = 'red';
